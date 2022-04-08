@@ -68,11 +68,12 @@ else if(rad==3)
   else
 my="Hello!! Shashank";
    return VxBox(
+     
     child: (rad==0)?ZStack([  
         Align(
-          alignment: Alignment.topCenter,
+          alignment: Alignment.center,
           child: [
-             7.heightBox,
+             5.heightBox,
             "Me!!".text.uppercase.white.bold.make().centered().p16(),
             VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/me.png"),
             fit: BoxFit.cover),
@@ -93,16 +94,16 @@ my="Hello!! Shashank";
            ):(rad==1)?ZStack([
                
         Align(
-          alignment: Alignment.topCenter,
+          alignment: Alignment.center,
           child: [
             
-             7.heightBox,
+             5.heightBox,
             "Tech Bucket!!".text.uppercase.white.bold.make().centered().p16(),
             VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/c.png"),
             fit: BoxFit.cover),
             backgroundColor: Colors.transparent,).p2(),
-            16.heightBox,
-            my.text.white.bold.make().p8(),
+            5.heightBox,
+            my.text.white.bold.make().p4(),
            
          RaisedButton(
                 onPressed: () {
@@ -126,7 +127,7 @@ my="Hello!! Shashank";
                   ),
                 ]
                 , mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,).centered().p8(),
-              ).p16().centered()
+              ).p8().centered()
            
         
       
@@ -134,16 +135,16 @@ my="Hello!! Shashank";
            )]
            ):(rad==2)?ZStack([  
         Align(
-          alignment: Alignment.topCenter,
+          alignment: Alignment.center,
           child: [
             
-             7.heightBox,
+             5.heightBox,
             "Achievements!!".text.uppercase.white.bold.make().centered().p16(),
             VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/b.png"),
             fit: BoxFit.cover),
             backgroundColor: Colors.transparent,).p2(),
-            16.heightBox,
-            my.text.white.bold.make().p8(),
+            5.heightBox,
+            my.text.white.bold.make().p4(),
            
          RaisedButton(
                 onPressed: () {
@@ -167,7 +168,7 @@ my="Hello!! Shashank";
                   ),
                 ]
                 , mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,).centered().p8(),
-              ).p16().centered()
+              ).p8().centered()
            
         
       
@@ -175,16 +176,16 @@ my="Hello!! Shashank";
            )]
            ):(rad==3)?ZStack([  
         Align(
-          alignment: Alignment.topCenter,
+          alignment: Alignment.center,
           child:  [
             
-             7.heightBox,
+             4.heightBox,
             "Projects!!".text.uppercase.white.bold.make().centered().p16(),
             VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/d.png"),
             fit: BoxFit.cover),
             backgroundColor: Colors.transparent,).p2(),
-            16.heightBox,
-            my.text.white.bold.make().p8(),
+            5.heightBox,
+            my.text.white.bold.make().p4(),
            
          RaisedButton(
                 onPressed: () {
@@ -208,7 +209,7 @@ my="Hello!! Shashank";
                   ),
                 ]
                 , mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,).centered().p8(),
-              ).p16().centered()
+              ).p8().centered()
            
         
       
@@ -216,7 +217,7 @@ my="Hello!! Shashank";
            )]
            ):ZStack([  
         Align(
-          alignment: Alignment.topCenter,
+          alignment: Alignment.center,
           child:  [
             
              7.heightBox,
@@ -245,7 +246,7 @@ my="Hello!! Shashank";
                   ),
                 ]
                 , mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,).centered().p8(),
-              ).p16().centered(),
+              ).p8().centered(),
               RaisedButton(
                 onPressed: () {
                   html.window.open('https://www.linkedin.com/in/pshashankp/',"_blank");
@@ -268,7 +269,7 @@ my="Hello!! Shashank";
                   ),
                 ]
                 , mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,).centered().p8(),
-              ).p16().centered(),
+              ).p8().centered(),
               RaisedButton(
                 onPressed: () {
                   html.window.open('https://www.hackerrank.com/shashank_feeling',"_blank");
@@ -291,7 +292,7 @@ my="Hello!! Shashank";
                   ),
                 ]
                 , mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,).centered().p8(),
-              ).p16().centered(),
+              ).p8().centered(),
 
            
          RaisedButton(
@@ -316,13 +317,15 @@ my="Hello!! Shashank";
                   ),
                 ]
                 , mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,).centered().p8(),
-              ).p16().centered()
+              ).p8().centered()
            
         
       
            ].vStack()
            )]
            )
+         
+         
            )
     .bgImage(
       DecorationImage(image: NetworkImage(i),
@@ -330,11 +333,11 @@ my="Hello!! Shashank";
       fit: BoxFit.cover,
       colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.3), BlendMode.lighten))
     ).withRounded(value:30.0)
-    .make().p4().centered();
+    .make().pOnly(right: 2,left: 2,top: 4,bottom: 0).centered();
 
 
 
-  }).p64(),
+  }).p8(),
 
   
   ],
