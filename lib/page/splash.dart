@@ -33,7 +33,7 @@ class _splashState extends State<splash> {
      ],
      begin: Alignment.topLeft,
      end: Alignment.bottomRight)
-   ).bgImage(DecorationImage(image: NetworkImage("assets/sp.png"),
+   ).bgImage(DecorationImage(image: NetworkImage("assets/assets/sp.png"),
    )
    )
 

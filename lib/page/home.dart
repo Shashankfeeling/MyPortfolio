@@ -56,7 +56,7 @@ body: Stack(
   itemBuilder: (context, index){
     
     rad=index;
-    String i="assets/t.png";
+    String i="assets/assets/t.png";
   if(rad==0)
   my="I'm second year understudy Btech student with software engineering, designing and specialization in Artificial Intelligence from ABESIT school of Engineering , Ghaziabad.";
 else if(rad==1)
@@ -74,7 +74,7 @@ my="Hello!! Shashank";
           child: [
              7.heightBox,
             "Me!!".text.uppercase.white.bold.make().centered().p16(),
-            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/me.png"),
+            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/me.png"),
             fit: BoxFit.cover),
             backgroundColor: Colors.transparent,).p2(),
             
@@ -98,7 +98,7 @@ my="Hello!! Shashank";
             
              7.heightBox,
             "Tech Bucket!!".text.uppercase.white.bold.make().centered().p16(),
-            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/c.png"),
+            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/c.png"),
             fit: BoxFit.cover),
             backgroundColor: Colors.transparent,).p2(),
             16.heightBox,
@@ -120,7 +120,7 @@ my="Hello!! Shashank";
                     ),
                 child: Row(children: ["LinkedIn  ".text.white.bold.make().centered().px16(),
                 Image.asset(
-                    "in.png",
+                    "assets/in.png",
                     height: 35,
                     width: 35,
                   ),
@@ -139,7 +139,7 @@ my="Hello!! Shashank";
             
              7.heightBox,
             "Achievements!!".text.uppercase.white.bold.make().centered().p16(),
-            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/b.png"),
+            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/b.png"),
             fit: BoxFit.cover),
             backgroundColor: Colors.transparent,).p2(),
             16.heightBox,
@@ -161,7 +161,7 @@ my="Hello!! Shashank";
                     ),
                 child: Row(children: ["Resume  ".text.white.bold.make().centered().px16(),
                 Image.asset(
-                    "r.png",
+                    "assets/r.png",
                     height: 35,
                     width: 35,
                   ),
@@ -180,7 +180,7 @@ my="Hello!! Shashank";
             
              7.heightBox,
             "Projects!!".text.uppercase.white.bold.make().centered().p16(),
-            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/d.png"),
+            VxCircle(backgroundImage: DecorationImage(image: NetworkImage("assets/assets/d.png"),
             fit: BoxFit.cover),
             backgroundColor: Colors.transparent,).p2(),
             16.heightBox,
@@ -202,7 +202,7 @@ my="Hello!! Shashank";
                     ),
                 child: Row(children: ["Github  ".text.white.bold.make().centered().px16(),
                 Image.asset(
-                    "g.png",
+                    "assets/g.png",
                     height: 35,
                     width: 35,
                   ),
@@ -239,7 +239,7 @@ my="Hello!! Shashank";
                     ),
                 child: Row(children: ["Github  ".text.white.bold.make().centered().px16(),
                 Image.asset(
-                    "g.png",
+                    "assets/g.png",
                     height: 35,
                     width: 35,
                   ),
@@ -262,7 +262,7 @@ my="Hello!! Shashank";
                     ),
                 child: Row(children: ["LinkedIn  ".text.white.bold.make().centered().px16(),
                 Image.asset(
-                    "in.png",
+                    "assets/in.png",
                     height: 35,
                     width: 35,
                   ),
@@ -285,7 +285,7 @@ my="Hello!! Shashank";
                     ),
                 child: Row(children: ["Hackerank  ".text.white.bold.make().centered().px16(),
                 Image.asset(
-                    "h.png",
+                    "assets/h.png",
                     height: 35,
                     width: 35,
                   ),
@@ -310,7 +310,7 @@ my="Hello!! Shashank";
                     ),
                 child: Row(children: ["Instagram  ".text.white.bold.make().centered().px16(),
                 Image.asset(
-                    "ins.png",
+                    "assets/ins.png",
                     height: 35,
                     width: 35,
                   ),

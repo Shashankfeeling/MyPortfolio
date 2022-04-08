@@ -52,6 +52,35 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - assets/r.png
+    - assets/t.png
+    - assets/ins.png
+    - assets/me.png
+    - assets/b.png
+    - assets/c.png
+    - assets/d.png
+    - assets/in.png
+    - assets/h.png
+    - assets/sp.png
+    - assets/g.png
+    - assets/favicon.ico
+    - assets/fav.png
+    - assets/is.png
+    - assets/assets/
+    - assets/assets/r.png
+    - assets/assets/t.png
+    - assets/assets/ins.png
+    - assets/assets/me.png
+    - assets/assets/b.png
+    - assets/assets/c.png
+    - assets/assets/d.png
+    - assets/assets/in.png
+    - assets/assets/h.png
+    - assets/assets/sp.png
+    - assets/assets/g.png
+    - assets/assets/favicon.ico
+    - assets/assets/fav.png
+    - assets/assets/is.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see
