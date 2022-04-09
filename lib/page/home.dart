@@ -18,7 +18,7 @@ String my="I'm second year understudy seeking Btech student.";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-drawer: Drawer(),
+
 body: Stack(
   children: [
    VxAnimatedBox().size(context.screenWidth, context.screenHeight).withGradient(
@@ -57,8 +57,10 @@ body: Stack(
     
     rad=index;
     String i="assets/assets/t.png";
-  if(rad==0)
-  my="I'm second year understudy Btech student with software engineering, designing and specialization in Artificial Intelligence from ABESIT school of Engineering , Ghaziabad.";
+  if((context.isMobile)&&rad==0)
+  my="I'm second year understudy Btech student with software engineering, designing and specialization in Artificial Intelligence from ABESIT College Of Engineering , Ghaziabad.";
+else if((context.isMobile)!=0&&rad==0)
+  my="I'm second year understudy Btech student with software engineering, designing and specialization in Artificial Intelligence from ABESIT College Of Engineering , Ghaziabad. I am Enthusiastic Engineer eager to contribute to team success through hard work ,attention to detail and excellent project skills. Clear understanding of programming and development . Motivated to learn , grow and excel in project .";
 else if(rad==1)
   my="1.C++/C                2.Dart\n3.C#                      4.Python\n5.Javascript         6.HTML/Css\n7.UI/UX                 8.Flutter";
   else if(rad==2)
